@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" blendMode="SRC_OVER" prefHeight="480.0" prefWidth="720.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="second.pkgclass.FXMLDocumentController">
+  <children>
+    <Label alignment="CENTER" layoutX="14.0" layoutY="27.0" prefWidth="692.0" text="Ingresar Estudiante">
+      <font>
+        <Font size="30.0" />
+      </font>
+    </Label>
+    <Label layoutX="112.0" layoutY="149.0" text="Nombre: ">
+      <font>
+        <Font size="25.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="121.0" layoutY="223.0" text="Código:" />
+    <TextField fx:id="textNombre" layoutX="233.0" layoutY="155.0" prefHeight="28.0" prefWidth="210.0" />
+    <TextField fx:id="textCodigo" layoutX="233.0" layoutY="226.0" prefHeight="28.0" prefWidth="210.0" />
+    <Button fx:id="aceptar" font="$x1" layoutX="121.0" layoutY="360.0" mnemonicParsing="false" onAction="#AceptarAction" prefHeight="47.0" prefWidth="135.0" text="Aceptar" />
+    <Button fx:id="mostrar" font="$x1" layoutX="406.0" layoutY="360.0" mnemonicParsing="false" onAction="#MostrarAction" prefHeight="47.0" prefWidth="135.0" text="Mostrar" />
+  </children>
+</AnchorPane>
